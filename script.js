@@ -4,7 +4,6 @@ res
   .then((data) => data.json())
   .then((data1) => {
     for (i = 0; i < data1.length; i++) {
-      console.log(data1[i]);
       const div = document.createElement("div");
       div.innerHTML = `<div class="card">
         <p class="name">name : ${data1[i].name}</p>
