@@ -6,10 +6,10 @@ res
     for (i = 0; i < data1.length; i++) {
       const div = document.createElement("div");
       div.innerHTML = `<div class="card">
-        <p class="name">name : ${data1[i].name}</p>
-        <p>Email : ${data1[i].email}</p>
-        <p>Street : ${data1[i].address.street}</p>
-        <p>City : ${data1[i].address.city}</p>
+        <p class="name"> <b>Name :</b> ${data1[i].name}</p>
+        <p><b>Email :</b> ${data1[i].email}</p>
+        <p><b>Street :</b> ${data1[i].address.street}</p>
+        <p><b>City :</b> ${data1[i].address.city}</p>
         <br>
         </div>
         `;
